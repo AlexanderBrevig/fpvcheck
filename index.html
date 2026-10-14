@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FPV-sjekk</title>
+<meta name="description" content="Vedlegg H – sjekkliste for FPV uten utkikksperson (NLF), på mobilen.">
+<meta name="theme-color" content="#15140f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preload" href="fonts/barlow-cond-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bar">
+  <a id="brand" class="brand" href="#/" style="text-decoration:none">FPV-sjekk</a>
+  <button id="lang" class="lang" type="button" aria-label="Språk / Language">EN</button>
+</header>
+<main id="view"></main>
+<nav class="tabs">
+  <a href="#/" data-label="navCheck">Sjekk</a>
+  <a href="#/log" data-label="navLog">Logg</a>
+  <a href="#/setup" data-label="navSetup">Oppsett</a>
+  <a href="#/about" data-label="navAbout">Om</a>
+</nav>
+<script type="module" src="app.js"></script>
+</body>
+</html>

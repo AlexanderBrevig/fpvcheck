@@ -1,0 +1,14 @@
+# Editor / OS
+.DS_Store
+*.swp
+*~
+.helix/
+.vscode/
+.idea/
+
+# Local test output
+shots*/
+node_modules/
+
+# Third-party PDFs (NLF copyright) — download links + verbatim excerpts in rules/README.md
+rules/*.pdf
